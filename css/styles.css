@@ -1,6 +1,11 @@
 body {
-  background-image: url("./");
+  background-image: url("../src/logoc.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom right;
 }
+
 h1 {
   font-family: Dejavu Sans, Arial, Verdana, sans-serif;
   text-align: center;
@@ -8,8 +13,8 @@ h1 {
   background-color: rgb(245, 63, 8);
 }
 img {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 150px;
   display: block;
   margin: auto;
 }
