@@ -1,25 +1,28 @@
 body {
-  background-image: url("../src/logoc.jpg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: bottom right;
+  background-color: rgb(245, 63, 8);
 }
 
-h1 {
+h2 {
   font-family: Dejavu Sans, Arial, Verdana, sans-serif;
   text-align: center;
   color: rgba(0, 0, 0, 0.788);
   background-color: rgb(245, 63, 8);
 }
 img {
-  width: 200px;
+  width: 100%;
   height: 150px;
   display: block;
   margin: auto;
 }
 
-h2 {
+h1 {
   font-family: "Amatic SC", cursive;
   text-align: center;
+}
+h3 {
+  font-family: "Amatic SC", cursive;
+  font-family: "Condiment", cursive;
+  font-family: "Explora", cursive;
+  font-family: "Permanent Marker", cursive;
+  text-align: right;
 }
