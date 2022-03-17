@@ -33,3 +33,7 @@ button {
   display: block;
   margin: auto;
 }
+.super {
+  width: 50%;
+  height: 200px;
+}
