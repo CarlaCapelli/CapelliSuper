@@ -11,6 +11,9 @@ h3 {
   text-align: center;
   background-color: rgb(236, 84, 38);
 }
+table {
+  width: 100%;
+}
 table,
 th,
 td {
