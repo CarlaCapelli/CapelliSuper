@@ -1,0 +1,31 @@
+body {
+  background-image: url("../src/logoc.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom right;
+}
+h3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-color: rgb(236, 84, 38);
+}
+table {
+  width: 100%;
+}
+table,
+th,
+td {
+  border: 1px solid;
+}
+td {
+  text-align: center;
+}
+tr:hover {
+  background-color: rgb(236, 84, 38);
+}
+button {
+  display: block;
+  margin: auto;
+}
