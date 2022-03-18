@@ -2,10 +2,8 @@ body {
   background-color: rgb(236, 84, 38);
 }
 
-h2 {
-  font-family: Dejavu Sans, Arial, Verdana, sans-serif;
-  text-align: center;
-  color: rgba(0, 0, 0, 0.788);
+.header {
+  background-color: rgb(3, 30, 56);
 }
 img {
   width: 100%;
@@ -19,7 +17,7 @@ h1 {
   text-align: center;
   background-color: white;
 }
-h3 {
+h2 {
   font-family: "Amatic SC", cursive;
   font-family: "Condiment", cursive;
   font-family: "Explora", cursive;
@@ -35,33 +33,45 @@ p {
   height: 200px;
 }
 
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+.dropbtn {
+  background-color: white;
+  color: rgb(236, 84, 38);
+  padding: 16px;
+  font-size: 16px;
+  border: black;
+  cursor: pointer;
 }
 
-li {
-  float: left;
+.dropdown {
+  position: relative;
+  display: inline-block;
 }
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px black;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(236, 84, 38);
+  padding: 12px 16px;
   text-decoration: none;
+  display: block;
 }
 
-li a:hover:not(.active) {
-  background-color: #111;
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
 }
 
-.active {
-  background-color: #04AA6D;
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: black;
+  color: rgb(236, 84, 38);
+}
